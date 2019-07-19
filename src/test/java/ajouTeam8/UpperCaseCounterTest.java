@@ -102,6 +102,22 @@ public class UpperCaseCounterTest {
 
 
 
+    @Test
+    public void LessthanOrEqualTo(){
+        String fruitName1 = "APPLE";
+        String fruitName2 = "PineaPple";
+        int result1 =upperCaseCounter.getNumberOfUpperCaseCharactersInString(fruitName1);
+        int result2 =upperCaseCounter.getNumberOfUpperCaseCharactersInString(fruitName2);
+
+        //lessThanOrEuqalTo
+        //result2하고 2이하인것을 비교
+        assertThat(result2, lessThanOrEqualTo(2));
+        //result1하고 result2비교
+        assertThat(result2,lessThanOrEqualTo(result1));
+
+
+    }
+
 
 
 
