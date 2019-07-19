@@ -77,7 +77,7 @@ public class UpperCaseCounterTest {
         System.out.println("제한된 시간 내에 수행되면 테스트 Passed!");
     }
 
-
+//송치완
     @Test
     public void GreaterThanOrEqualTo(){
         String fruitName1 = "APPLE";
@@ -101,7 +101,7 @@ public class UpperCaseCounterTest {
     }
 
 
-
+//송치완
     @Test
     public void LessthanOrEqualTo(){
         String fruitName1 = "APPLE";
