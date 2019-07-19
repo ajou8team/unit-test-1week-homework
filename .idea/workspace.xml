@@ -128,10 +128,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="23" />
-    <option name="width" value="1422" />
-    <option name="height" value="808" />
+    <option name="x" value="325" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -225,6 +224,28 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="ChampionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unitTestHomeworkWeek1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ajouTeam8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ajouTeam8" />
+      <option name="MAIN_CLASS_NAME" value="ajouTeam8.ChampionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChampionTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -283,7 +304,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
-      <path value="$PROJECT_DIR$/../.." />
+      <path value="$USER_HOME$" />
     </ignored-roots>
     <MESSAGE value="make LessthanOrEqualTo Test" />
     <option name="LAST_COMMIT_MESSAGE" value="make LessthanOrEqualTo Test" />
