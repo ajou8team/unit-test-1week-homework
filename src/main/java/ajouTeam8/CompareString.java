@@ -1,5 +1,12 @@
 package ajouTeam8;
 
 public class CompareString {
+    public boolean compareTwoString(String str1, String str2, int choose) {
+        if (choose == 0) {
+            if (str1 == null || str2 == null) {
+                return false;
+            }
+        }
+    }
 
 }
