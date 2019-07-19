@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bb58225-aae2-4e0d-aa28-882c8c0b71f3" name="Default Changelist" comment="make LessthanOrEqualTo Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ajouTeam8/CompareStringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ajouTeam8/CompareStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ajouTeam8/CompareStringTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="57">
+              <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -93,17 +92,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CompareString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/CompareStringTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="251">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +128,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/Champion.java" />
         <option value="$PROJECT_DIR$/src/test/java/ajouTeam8/UpperCaseCounterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/CompareString.java" />
         <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ajouTeam8/CompareString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ajouTeam8/CompareStringTest.java" />
       </list>
     </option>
   </component>
@@ -255,9 +258,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="781" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2108183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2108183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +276,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998565" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32998565" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -340,20 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CompareString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/CompareStringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/CustomCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -366,8 +354,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CustomCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="57">
+          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ajouTeam8/CompareString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ajouTeam8/CompareStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
