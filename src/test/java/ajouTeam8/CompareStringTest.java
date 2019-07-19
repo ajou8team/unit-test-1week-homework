@@ -4,6 +4,7 @@ package ajouTeam8;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.equalToIgnoringCase;
+import static org.hamcrest.Matchers.equalToIgnoringWhiteSpace;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
@@ -32,5 +33,15 @@ public class CompareStringTest {
 
         //equalToIgnoringCase
         assertThat(str1, equalToIgnoringCase(str2));
+    }
+
+    @Test
+    public void getTwoString_But_str1_has_WhiteSpace_Str2_has_not_WhiteSpace(){
+        compareString = new CompareString();
+        String str1 = "    MoHyeonMin";
+        String str2 = "MoHyeonMIn";
+
+        //equalToIgnoringWhiteSpace
+        assertThat(str1, equalToIgnoringWhiteSpace(str2));
     }
 }
