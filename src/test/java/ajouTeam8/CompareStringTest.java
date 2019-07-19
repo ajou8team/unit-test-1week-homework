@@ -54,4 +54,17 @@ public class CompareStringTest {
         //containsString
         assertThat(str1, containsString(str2));
     }
+
+    @Test
+    public void getNothingchoose(){
+        compareString = new CompareString();
+        int choose = 1;
+
+        //notNullvalue
+        assertThat(choose, is(notNullValue()));
+
+        //Nullvalue
+        assertThat(null,is(nullValue()));
+
+    }
 }
