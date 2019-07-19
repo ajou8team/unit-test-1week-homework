@@ -3,8 +3,7 @@ package ajouTeam8;
 
 import org.junit.Test;
 
-import static org.hamcrest.Matchers.equalToIgnoringCase;
-import static org.hamcrest.Matchers.equalToIgnoringWhiteSpace;
+import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
@@ -43,5 +42,16 @@ public class CompareStringTest {
 
         //equalToIgnoringWhiteSpace
         assertThat(str1, equalToIgnoringWhiteSpace(str2));
+    }
+
+    @Test
+    public void getTwoStringSearchString(){
+        compareString = new CompareString();
+
+        String str1 ="MoHyeonMIn";
+        String str2 ="Hyeon";
+
+        //containsString
+        assertThat(str1, containsString(str2));
     }
 }
