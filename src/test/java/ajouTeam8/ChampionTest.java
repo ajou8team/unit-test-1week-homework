@@ -1,5 +1,6 @@
 package ajouTeam8;
 
+import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -9,6 +10,7 @@ import java.util.List;
 import java.util.Optional;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
@@ -130,6 +132,27 @@ public class ChampionTest {
         String champName = filterdChampion.get().getName();
         assertTrue(champName.equals("베인"));
         assertThat("베인", is(champName));
+    }
+
+    @Test
+    public void shouldHaveSomeChampName_Either_Match(){
+        List<String> iLikeChampNames = Arrays.asList("조이", "티모", "람머스", "유미", "아리");
+        assertThat(iLikeChampNames.get(4), either(containsString("아리")).or(containsString("애쉬")));
+
+    }
+    @Test
+    public void shouldHaveChampName_바텀_조합(){
+        List<String> iLikeChampNames = Arrays.asList("유미&애쉬", "유미&티모", "유미&루시안", "유미&시비르", "유미&이즈리얼");
+        assertThat(iLikeChampNames,everyItem(startsWith("유미")));
+
+    }
+
+    @Test
+    public void shouldSupport_And_Midden_Champion(){
+
+        Champion SupportMiddenChampion = new Champion("파이크","바텀&미드");
+        assertThat(SupportMiddenChampion.getName(), Matchers.is("파이크"));
+        assertThat(SupportMiddenChampion.getPosition(), both(containsString("바텀")).and(containsString("미드")));
     }
 
 }
