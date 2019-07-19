@@ -6,6 +6,11 @@ public class CompareString {
             if (str1 == null || str2 == null) {
                 return false;
             }
+
+            //equals
+            else  if(choose == 1) {
+                return str1.equals(str2);
+            }
         }
     }
 
