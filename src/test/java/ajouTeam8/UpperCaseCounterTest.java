@@ -6,6 +6,8 @@ import org.junit.Test;
 import java.util.ArrayList;
 
 import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.Matchers.greaterThanOrEqualTo;
+import static org.hamcrest.Matchers.lessThanOrEqualTo;
 import static org.junit.Assert.*;
 
 public class UpperCaseCounterTest {
@@ -74,5 +76,36 @@ public class UpperCaseCounterTest {
         Thread.sleep(4000);
         System.out.println("제한된 시간 내에 수행되면 테스트 Passed!");
     }
+
+
+    @Test
+    public void GreaterThanOrEqualTo(){
+        String fruitName1 = "APPLE";
+        String fruitName2 = "PineaPple";
+        int result1 =upperCaseCounter.getNumberOfUpperCaseCharactersInString(fruitName1);
+        int result2 =upperCaseCounter.getNumberOfUpperCaseCharactersInString(fruitName2);
+
+        //GreaterThanOrEqualTo
+        //result1하고 5이상인것을 비교
+        assertThat(result1, greaterThanOrEqualTo(5));
+        //result1하고 4이상인것을 비교
+        assertThat(result1,greaterThanOrEqualTo(4));
+
+        //lessThanOrEuqalTo
+        //result2하고 2이하인것을 비교
+        assertThat(result2, lessThanOrEqualTo(2));
+        //result1하고 result2ㅂ교
+        assertThat(result2,lessThanOrEqualTo(result1));
+
+
+    }
+
+
+
+
+
+
+
+
 }
 
