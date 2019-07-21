@@ -5,9 +5,10 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.Matchers.greaterThanOrEqualTo;
-import static org.hamcrest.Matchers.lessThanOrEqualTo;
+import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.lessThan;
 import static org.junit.Assert.*;
 
 public class UpperCaseCounterTest {
@@ -118,9 +119,37 @@ public class UpperCaseCounterTest {
 
     }
 
+    //홍지호
+    @Test
+    public void getNumberOfUpperCaseCharacterInString_equalTo_test(){
+        String str ="ABCDefGH";
+        int result =upperCaseCounter.getNumberOfUpperCaseCharactersInString(str);
 
+        assertThat(result, is(equalTo(6)));
+    }
 
+    //홍지호
+    @Test
+    public void getNumberOfUpperCaseCharacterInString_greaterThan_test(){
+        String str1 = "ABCded";
+        String str2 = "MoBeaHongSong";
+        int result1 =upperCaseCounter.getNumberOfUpperCaseCharactersInString(str1);
+        int result2 =upperCaseCounter.getNumberOfUpperCaseCharactersInString(str2);
 
+        assertThat(result2,greaterThan(result1));
+        System.out.println("result2:"+result2+" greaterThan result1:"+result1);
+    }
+
+    //홍지호
+    @Test
+    public void getNumberOfUpperCaseCharacterInString_lessthan_test(){
+        String str = "ABCded";
+        int result =upperCaseCounter.getNumberOfUpperCaseCharactersInString(str);
+
+        assertThat(result, lessThan(5));
+        System.out.println("result1:"+result+"lessThan 5");
+
+    }
 
 
 }
