@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.greaterThanOrEqualTo;
 import static org.hamcrest.Matchers.lessThanOrEqualTo;
@@ -116,6 +117,15 @@ public class UpperCaseCounterTest {
         assertThat(result2,lessThanOrEqualTo(result1));
 
 
+    }
+
+    //홍지호
+    @Test
+    public void getNumberOfUpperCaseCharacterInString_equalTo_test(){
+        String str ="ABCDefGH";
+        int result =upperCaseCounter.getNumberOfUpperCaseCharactersInString(str);
+
+        assertThat(result, is(equalTo(6)));
     }
 
 
